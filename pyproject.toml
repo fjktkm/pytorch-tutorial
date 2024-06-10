@@ -6,6 +6,8 @@ authors = ["fjktkm <fjktkm@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
+jupyter = "^1.0.0"
+numpy = "^1.26.4"
 python = "^3.10"
 torch = { version = "^2.3.1+cu121", source = "pytorch-cu121" }
 torchaudio = { version = "^2.3.1+cu121", source = "pytorch-cu121" }
