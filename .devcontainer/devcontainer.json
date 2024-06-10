@@ -1,0 +1,21 @@
+{
+	"name": "PyTorch",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"runArgs": [
+		"--gpus",
+		"all"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff",
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"tamasfe.even-better-toml"
+			]
+		}
+	},
+	"postCreateCommand": "poetry install"
+}
