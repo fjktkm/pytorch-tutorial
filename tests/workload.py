@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import torch.nn.functional as F
-from torchvision import datasets, transforms
+import torch.optim as optim
 from torch.utils.data import DataLoader
+from torchvision import datasets, transforms
 
 # デバイスの設定（GPUが利用可能ならGPUを使用）
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
