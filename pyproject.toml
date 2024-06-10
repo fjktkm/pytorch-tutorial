@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pytorch-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["fjktkm <fjktkm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = { version = "^2.3.1+cu121", source = "pytorch-cu121" }
+torchaudio = { version = "^2.3.1+cu121", source = "pytorch-cu121" }
+torchvision = { version = "^0.18.1+cu121", source = "pytorch-cu121" }
+
+[[tool.poetry.source]]
+name = "pytorch-cu121"
+url = "https://download.pytorch.org/whl/cu121"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
