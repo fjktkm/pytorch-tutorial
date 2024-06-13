@@ -1,7 +1,7 @@
 {
-	"name": "PyTorch",
+	"name": "PyTorch - GPU",
 	"build": {
-		"dockerfile": "Dockerfile"
+		"dockerfile": "../Dockerfile"
 	},
 	"runArgs": [
 		"--gpus",
