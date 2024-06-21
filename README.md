@@ -1,1 +1,1 @@
-https://pytorch.org/tutorials/beginner/
+https://pytorch.org/tutorials/index.html
